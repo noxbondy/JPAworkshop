@@ -15,5 +15,6 @@ public interface AppUserRepository extends CrudRepository<AppUser, Integer> {
     List<AppUser> findByRegistrationDateBetween(LocalDate startDate, LocalDate endDate);
     List<AppUser> findByDetailsId(Long detailsId);
     AppUser findByDetailsEmailIgnoreCase(String email);
+
 }
 

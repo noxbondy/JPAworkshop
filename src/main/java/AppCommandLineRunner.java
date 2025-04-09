@@ -11,13 +11,13 @@ public AppCommandLineRunner(AppUserRepository appUserRepository) {
     this.appUserRepository = appUserRepository;
 }
 
-    @Override
-    public void run(String... args) throws Exception {
-    System.out.print(" hello world ");
-    AppUser appUser = new AppUser("noxbondy","password");
-    this.appUserRepository.save(appUser);
-    System.out.print(" register user "+appUser.getId());
-
-
-    }
+//    @Override
+//    public void run(String... args) throws Exception {
+//    System.out.print(" hello world ");
+//    AppUser appUser = new AppUser("noxbondy","password");
+//    this.appUserRepository.save(appUser);
+//    System.out.print(" register user "+appUser.getId());
+//
+//
+//    }
 }
